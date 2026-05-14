@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@font-face {
+  font-family: 'Technology';
+  src: url('/fonts/Technology-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-technology {
+  font-family: 'Technology', sans-serif;
+}
+
+input[type='date'],
+input[type='time'] {
+  color-scheme: dark;
+}
+
+input[type='date'] {
+  text-transform: uppercase;
+}
+
+input[type='date']::-webkit-datetime-edit,
+input[type='time']::-webkit-datetime-edit {
+  text-transform: uppercase;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator,
+input[type='time']::-webkit-calendar-picker-indicator {
+  filter: brightness(0) invert(1) !important;
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator:hover,
+input[type='time']::-webkit-calendar-picker-indicator:hover {
+  filter: brightness(0) invert(1) !important;
+  opacity: 0.8 !important;
+}
+
+/* Firefox */
+input[type='date']::-moz-calendar-picker-indicator,
+input[type='time']::-moz-calendar-picker-indicator {
+  filter: brightness(0) invert(1) !important;
+  opacity: 1 !important;
+  cursor: pointer;
+}
