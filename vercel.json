@@ -1,7 +1,12 @@
 {
   "version": 2,
-  "framework": "nextjs",
   "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
