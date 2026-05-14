@@ -87,6 +87,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is open source and available under the MIT License.
 
+## Acknowledgments
+
+- [Vite](https://vitejs.dev/) for the ultra-fast build tool
+- [TailwindCSS](https://tailwindcss.com/) for the modern styling framework
+- [Lucide Icons](https://lucide.dev/) and [React Icons](https://react-icons.github.io/react-icons/) for the premium iconography
+- [Chart.js](https://www.chartjs.org/) for the beautiful data visualizations
+- [Vercel](https://vercel.com/) for the seamless hosting and deployment
+
 ## Support
 
 For issues and questions, please open an issue on GitHub.
