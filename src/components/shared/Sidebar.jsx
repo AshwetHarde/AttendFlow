@@ -69,18 +69,7 @@ const Sidebar = ({ isOpen, onClose }) => {
             ))}
           </div>
 
-          <div className="pt-4 border-t border-zinc-800/50 md:hidden">
-            <button
-              onClick={() => {
-                logout();
-                if (window.innerWidth < 768) onClose();
-              }}
-              className="flex items-center gap-3 px-4 py-3 rounded-xl w-full text-red-400 hover:bg-red-400/5 transition-all duration-200"
-            >
-              <LogOut className="w-5 h-5" />
-              <span className="font-medium text-sm">Logout</span>
-            </button>
-          </div>
+         
         </nav>
       </aside>
     </>
