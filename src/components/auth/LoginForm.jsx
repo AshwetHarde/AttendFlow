@@ -32,9 +32,7 @@ const LoginForm = () => {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 bg-[#6366F1] rounded-xl flex items-center justify-center mx-auto mb-4">
-            <span className="text-white font-bold text-2xl">A</span>
-          </div>
+       
           <h1 className="text-2xl font-bold text-zinc-100">Welcome Back</h1>
           <p className="text-zinc-400 mt-1">Sign in to your account</p>
         </div>
